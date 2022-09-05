@@ -1,4 +1,4 @@
-﻿namespace IncredibleBackendNugetPackage.Enums
+﻿namespace IncredibleBackendContracts.Enums
 {
     public enum Role
     {

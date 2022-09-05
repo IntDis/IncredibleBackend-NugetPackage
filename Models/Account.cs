@@ -1,6 +1,6 @@
-﻿using IncredibleBackendNugetPackage.Enums;
+﻿using IncredibleBackendContracts.Enums;
 
-namespace IncredibleBackendNugetPackage.Models
+namespace IncredibleBackendContracts.Models
 {
     public class Account
     {

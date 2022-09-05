@@ -7,10 +7,20 @@
     <Authors>IntDis</Authors>
     <Company>IntDis</Company>
     <PackageId>IncredibleBackend</PackageId>
-    <Description>Models and Enums library for microservicing</Description>
     <PackageIcon>photo_2022-09-05_18-14-38.jpg</PackageIcon>
     <PackageTags>Models, Enums, Incredible, Backend</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<Version>1.0.1</Version>
+    <Description>Models and Enums library for microservicing
+	    1.0.1 - Enum AccountStatus changed
+		1.0.0 - Package was created
+	</Description>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Responses\" />
+    <Folder Include="Requests\" />
+  </ItemGroup>
 
   <ItemGroup>
     <None Include="..\..\..\..\Desktop\photo_2022-09-05_18-14-38.jpg">
