@@ -10,8 +10,9 @@
     <PackageIcon>photo_2022-09-05_18-14-38.jpg</PackageIcon>
     <PackageTags>Models, Enums, Incredible, Backend</PackageTags>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-	<Version>1.1.0</Version>
+	<Version>1.1.1</Version>
     <Description>Models and Enums library for microservicing
+	    1.1.1 - Deleted unnecessary model and renamed folder
 	    1.1.0 - Added few new models and little changes
 	    1.0.1 - Enum AccountStatus changed
 		1.0.0 - Package was created
