@@ -1,4 +1,4 @@
-﻿namespace IncredibleBackendContracts.Models
+﻿namespace IncredibleBackendContracts.ExchangeModels
 {
     public class CurrencyRate
     {
