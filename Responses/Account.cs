@@ -1,6 +1,6 @@
 ﻿using IncredibleBackendContracts.Enums;
 
-namespace IncredibleBackendContracts.Models
+namespace IncredibleBackendContracts.Responses
 {
     public class Account
     {
