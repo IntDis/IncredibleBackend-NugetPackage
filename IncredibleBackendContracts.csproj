@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -10,15 +10,15 @@
     <PackageIcon>photo_2022-09-05_18-14-38.jpg</PackageIcon>
     <PackageTags>Models, Enums, Incredible, Backend</PackageTags>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-	<Version>1.0.1</Version>
+	<Version>1.1.0</Version>
     <Description>Models and Enums library for microservicing
+	    1.1.0 - Added few new models and little changes
 	    1.0.1 - Enum AccountStatus changed
 		1.0.0 - Package was created
 	</Description>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Responses\" />
     <Folder Include="Requests\" />
   </ItemGroup>
 
