@@ -2,7 +2,7 @@
 {
     public class CurrencyRate
     {
-        public Dictionary<string, decimal> Rates;
+        public Dictionary<string, decimal> Rates { get; set; }
 
         public CurrencyRate()
         {
