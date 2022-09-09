@@ -1,10 +1,10 @@
-﻿namespace IncredibleBackendContracts.ExchangeModels
+﻿namespace IncredibleBackendContracts.Events
 {
-    public class CurrencyRate
+    public class NewRatesEvent
     {
         public Dictionary<string, decimal> Rates { get; set; }
 
-        public CurrencyRate()
+        public NewRatesEvent()
         {
             Rates = new Dictionary<string, decimal>();
         }

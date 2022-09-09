@@ -8,6 +8,7 @@
         JPY,
         AMD,
         BGN,
-        RSD
+        RSD,
+        CNY = 73
     }
 }

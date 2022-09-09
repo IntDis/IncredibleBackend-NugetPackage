@@ -2,7 +2,7 @@
 
 namespace IncredibleBackendContracts.Responses
 {
-    public class TransactionResponse
+    public class TransactionCreatedEvent
     {
         public long Id { get; set; }
         public long AccountId { get; set; }
@@ -10,5 +10,6 @@ namespace IncredibleBackendContracts.Responses
         public TransactionType TransactionType { get; set; }
         public decimal Amount { get; set; }
         public Currency Currency { get; set; }
+        public decimal Rate { get; set; }
     }
 }
