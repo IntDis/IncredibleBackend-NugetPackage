@@ -10,8 +10,9 @@
     <PackageIcon>photo_2022-09-05_18-14-38.jpg</PackageIcon>
     <PackageTags>Models, Enums, Incredible, Backend</PackageTags>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-	<Version>2.0.0</Version>
+	<Version>2.1.0</Version>
     <Description>Models and Enums library for microservicing
+	    2.1.0 - Added new TransactionExhcange constant
 	    2.0.0 - Added new Event models, Request models, Constants
 	    1.1.3 - Added new field to TransactionResponse model
 	    1.1.2 - Added getter and setter for CurrencyRate model
