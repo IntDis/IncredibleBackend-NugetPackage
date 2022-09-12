@@ -1,6 +1,6 @@
 ﻿using IncredibleBackendContracts.Enums;
 
-namespace IncredibleBackendContracts.Responses
+namespace IncredibleBackendContracts.Events
 {
     public class TransactionCreatedEvent
     {
