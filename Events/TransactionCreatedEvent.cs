@@ -1,8 +1,9 @@
-﻿using IncredibleBackendContracts.Enums;
+﻿using IncredibleBackendContracts.Abstractions;
+using IncredibleBackendContracts.Enums;
 
 namespace IncredibleBackendContracts.Events
 {
-    public class TransactionCreatedEvent
+    public class TransactionCreatedEvent : MessagingEvent
     {
         public long Id { get; set; }
         public long AccountId { get; set; }

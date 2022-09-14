@@ -1,8 +1,9 @@
-﻿using IncredibleBackendContracts.Enums;
+﻿using IncredibleBackendContracts.Abstractions;
+using IncredibleBackendContracts.Enums;
 
 namespace IncredibleBackendContracts.Events
 {
-    public class LeadUpdatedEvent
+    public class LeadUpdatedEvent : MessagingEvent
     {
         public int Id { get; set; }
         public string FirstName { get; set; }

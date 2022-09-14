@@ -1,6 +1,8 @@
-﻿namespace IncredibleBackendContracts.Events
+﻿using IncredibleBackendContracts.Abstractions;
+
+namespace IncredibleBackendContracts.Events
 {
-    public class LeadsRoleUpdatedEvent
+    public class LeadsRoleUpdatedEvent : MessagingEvent
     {
         public List<int> Ids { get; set; }
 

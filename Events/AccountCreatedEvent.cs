@@ -1,8 +1,9 @@
-﻿using IncredibleBackendContracts.Enums;
+﻿using IncredibleBackendContracts.Abstractions;
+using IncredibleBackendContracts.Enums;
 
 namespace IncredibleBackendContracts.Events
 {
-    public class AccountCreatedEvent
+    public class AccountCreatedEvent : MessagingEvent
     {
         public int Id { get; set; }
         public TradingCurrency Currency { get; set; }
