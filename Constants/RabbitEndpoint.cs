@@ -14,5 +14,6 @@
         public const string TransactionExchange = "transaction-exchange";
         public const string CurrencyRates = "currency-rates";
         public const string TransferTransactionCreate = "transfer-transaction-create";
+        public const string EmailCreate = "email-create";
     }
 }
