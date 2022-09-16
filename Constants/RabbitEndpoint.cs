@@ -8,7 +8,7 @@
         public const string AccountDelete = "account-delete";
         public const string AccountUpdate = "account-update";
         public const string AccountCreate = "account-create";
-        public const string LeadsRoleUpdateCrm = "leads-role-update-сrm";
+        public const string LeadsRoleUpdateCrm = "leads-role-update-crm";
         public const string LeadsRoleUpdateReporting = "leads-role-update-reporting";
         public const string TransactionCreate = "transaction-create";
         public const string TransactionExchange = "transaction-exchange";
